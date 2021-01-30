@@ -1,0 +1,97 @@
+.main-element {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+        url(./images/26afbfd6f4b0f7d2c0352d2c78f559db.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+body {
+    margin: 0px;
+}
+
+.navbar {
+    display: inline-block;
+
+    width: calc(100vw - 40px);
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+.menu {
+    color: white;
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.navbar h3 {
+    float: left;
+    font-weight: 500px;
+}
+
+.content {
+    clear: both;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+}
+
+.content p {
+    margin: 0px;
+}
+.content h1 {
+    font-size: 48px;
+}
+
+.content .bottom-text {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.content .top-text {
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.pixel {
+    height: 50vh;
+    width: calc(100% - 50px);
+    color: black;
+    border: 1px black;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: -80px;
+    margin-left: 25px;
+    padding-top: 34px;
+    border: 1px solid grey;
+}
+
+.circle {
+    width: 79px;
+    height: 79px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(206, 32, 32);
+}
+
+.circle img {
+    height: 71px;
+    width: 71px;
+}
+.pixel h6 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.pixel p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
